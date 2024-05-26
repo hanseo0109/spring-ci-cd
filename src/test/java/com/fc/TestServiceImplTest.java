@@ -23,11 +23,6 @@ public class TestServiceImplTest {
     @Value("${spring.application.name}")
     private String application;
 
-//    @Test
-//    void checkPortSuccess(){
-//        assertEquals(port, "8080");
-//    }
-
     @Test
     void getTestStringSuccess(){
         assertEquals(testService.getTestString(), "okay develop server 3444");
